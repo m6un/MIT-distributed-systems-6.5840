@@ -9,3 +9,9 @@
   Input 3 -> Map
   ```
 - Input is a file and the map function outputs Key value pairs.
+- Examples :
+  - Map(k,v)
+    - split v into words for each word w emit ( w, "1")
+  - Reduce(k,v)
+    - has it's on emit function
+    - emit(len(v))
